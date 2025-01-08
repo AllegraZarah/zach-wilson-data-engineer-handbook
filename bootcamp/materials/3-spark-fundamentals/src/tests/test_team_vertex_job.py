@@ -3,6 +3,7 @@ from chispa.dataframe_comparer import *
 from ..jobs.team_vertex_job import do_team_vertex_transformation
 from collections import namedtuple
 
+
 TeamVertex = namedtuple("TeamVertex", "identifier type properties")
 Team = namedtuple("Team", "team_id abbreviation nickname city arena yearfounded")
 
